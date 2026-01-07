@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODSOFT Internship Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .project-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .project-card h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            color: #fff;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CODSOFT Internship Projects</h1>
+        <p class="subtitle">By Dikshith Kumar BS</p>
+
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-icon">👨‍💻</div>
+                <h2>Portfolio Website</h2>
+                <p>A personal portfolio showcasing my skills, projects, and professional journey with a modern,
+                    responsive design.</p>
+                <a href="PORTFOLIO/index.html" class="btn">View Portfolio</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🍽️</div>
+                <h2>Restaurant Landing Page</h2>
+                <p>A beautiful landing page for "The Rustic Spoon" cafe featuring menu highlights, reservations, and
+                    location.</p>
+                <a href="LANDING PAGE/index.html" class="btn">View Landing Page</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🧮</div>
+                <h2>Calculator</h2>
+                <p>A fully functional calculator with basic operations, keyboard support, and a sleek dark interface.
+                </p>
+                <a href="CALCULATOR/index.html" class="btn">Open Calculator</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Dikshith Kumar BS | CODSOFT Internship</p>
+        </footer>
+    </div>
+</body>
+
+</html>
