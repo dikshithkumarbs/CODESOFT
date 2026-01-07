@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikshith - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <nav class="navbar">
+        <div class="logo">DK</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hello">Hi, my name is</p>
+            <h1>Dikshith</h1>
+            <h2>Full Stack Developer from Bangalore</h2>
+            <p class="intro">I'm a passionate web developer based in Bangalore, India. I love building websites and apps
+                that solve real problems and make life easier for people.</p>
+            <a href="#projects" class="btn">Check out my work</a>
+        </div>
+    </section>
+
+    <!-- about me -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="profile.png" alt="Dikshith's Photo">
+            </div>
+            <div class="about-text">
+                <p>Hey! I'm Dikshith, a software developer living in the beautiful city of Bangalore. I've been coding
+                    for about 3 years now and I absolutely love what I do.</p>
+                <p>I graduated from a local engineering college and since then I've been working on various web
+                    projects. I enjoy learning new technologies and building cool stuff that people can actually use.
+                </p>
+                <p>When I'm not coding, you'll find me exploring cafes around Koramangala, playing cricket with friends,
+                    or binge-watching tech videos on YouTube. I'm a huge fan of South Indian filter coffee!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h3>HTML & CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>React.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Node.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>MongoDB</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 72%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project1.png" alt="E-Commerce Project">
+                </div>
+                <div class="project-info">
+                    <h3>ShopEasy - Online Store</h3>
+                    <p>Built a complete e-commerce platform with product listings, cart functionality, and Razorpay
+                        payment integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project2.png" alt="Weather App">
+                </div>
+                <div class="project-info">
+                    <h3>Bangalore Weather App</h3>
+                    <p>A simple weather app that shows current weather and 5-day forecast for any city. Works great on
+                        mobile!</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project3.png" alt="Task Manager">
+                </div>
+                <div class="project-info">
+                    <h3>TaskFlow - Task Manager</h3>
+                    <p>Kanban-style task manager with drag and drop. Helps me stay organized with my daily work and side
+                        projects.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project4.png" alt="Blog">
+                </div>
+                <div class="project-info">
+                    <h3>Dev Notes - My Blog</h3>
+                    <p>A personal blog where I write about coding, tech stuff, and my journey as a developer in
+                        Bangalore.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>Tailwind</span>
+                        <span>MDX</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- resume -->
+    <section id="resume" class="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+            <div class="resume-col">
+                <h3>Experience</h3>
+                <div class="resume-item">
+                    <span class="date">2023 - Present</span>
+                    <h4>Software Developer</h4>
+                    <p class="company">TechStart Solutions, Bangalore</p>
+                    <p>Working on React and Node.js projects. Building web apps for clients across India.</p>
+                </div>
+                <div class="resume-item">
+                    <span class="date">2022 - 2023</span>
+                    <h4>Junior Developer</h4>
+                    <p class="company">WebCraft Agency, Bangalore</p>
+                    <p>Started my career here. Learned a lot about frontend development and team collaboration.</p>
+                </div>
+                <div class="resume-item">
+                    <span class="date">2021</span>
+                    <h4>Intern</h4>
+                    <p class="company">Local Startup</p>
+                    <p>6-month internship where I got my hands dirty with real projects for the first time.</p>
+                </div>
+            </div>
+            <div class="resume-col">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <span class="date">2018 - 2022</span>
+                    <h4>B.E. in Computer Science</h4>
+                    <p class="company">VTU Affiliated College, Bangalore</p>
+                    <p>Graduated with 8.2 CGPA. Active member of the coding club.</p>
+                </div>
+                <div class="resume-item">
+                    <span class="date">2023</span>
+                    <h4>AWS Cloud Practitioner</h4>
+                    <p class="company">Amazon Web Services</p>
+                    <p>Got certified in cloud basics. Planning to go for more AWS certs soon.</p>
+                </div>
+                <div class="resume-item">
+                    <span class="date">2022</span>
+                    <h4>Full Stack Web Dev Course</h4>
+                    <p class="company">Udemy</p>
+                    <p>Completed 50+ hour course on MERN stack development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="resume-download">
+            <a href="resume.pdf" download class="btn">Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>I'm currently open to freelance work and new opportunities. Feel free to reach out if you want to
+                    work together or just chat!</p>
+                <div class="contact-item">
+                    <strong>Email:</strong>
+                    <a href="mailto:dikshith.dev@gmail.com">dikshith.dev@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Phone:</strong>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Location:</strong>
+                    <span>Koramangala, Bangalore, Karnataka</span>
+                </div>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Dikshith. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // form submit
+        document.querySelector('.contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thanks for your message! I\'ll get back to you soon.');
+            this.reset();
+        });
+    </script>
+
+</body>
+
+</html>
