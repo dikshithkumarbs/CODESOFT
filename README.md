@@ -11,6 +11,8 @@ This repository contains three web development projects completed during my CODS
 
 **[View All Projects](https://dikshithkumarbs.github.io/CODESOFT/)**
 
+> Note: If the links don't work yet, you need to enable GitHub Pages in repository Settings → Pages → Deploy from branch "main"
+
 ---
 
 ## 📂 Projects
